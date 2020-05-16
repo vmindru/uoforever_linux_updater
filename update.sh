@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 # PATCH_FILES CAN BE TAKEN FROM HERE https://github.com/AdamUOF/UOFLauncher/blob/master/UOFLauncher/Classes/Constants.cs
-PATCH_FILES="http://www.uoforever.com/patches/UOPTREEHACK/Updates.xml http://www.uoforever.com/patches/UOP/Updates.xml"
+PATCH_FILES="https://www.uoforever.com/patches/UOPTREEHACK/Updates.xml https://www.uoforever.com/patches/UOP/Updates.xml"
 if [ $# -eq 1 ]
 then
     UO_PATH=$(realpath $1)
